@@ -3,3 +3,4 @@ INSERT INTO public."Position"("Name")VALUES ('Начальник групп КБ
 INSERT INTO public."Position"("Name")VALUES ('Архивариус');
 INSERT INTO public."Position"("Name")VALUES ('Сотрудник ПДО');
 INSERT INTO public."Position"("Name")VALUES ('Сотрудник ОПП');
+INSERT INTO public."Position"("Name")VALUES ('Начальник ПДО');
