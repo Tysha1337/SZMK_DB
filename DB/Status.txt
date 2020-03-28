@@ -1,4 +1,6 @@
-	INSERT INTO public."Status"("ID_Position", "Name") VALUES ('2', 'Добавлен начальником групп КБ');
-	INSERT INTO public."Status"("ID_Position", "Name") VALUES ('3', 'Передан в архив');
-	INSERT INTO public."Status"("ID_Position", "Name") VALUES ('4', 'Передан в ПДО');
-	INSERT INTO public."Status"("ID_Position", "Name") VALUES ('5', 'Передан в ОПП');
+1	INSERT INTO public."Status"("ID_Position", "Name") VALUES ('2', 'Добавлен начальником групп КБ');
+2	INSERT INTO public."Status"("ID_Position", "Name") VALUES ('3', 'Передан в архив');
+3	INSERT INTO public."Status"("ID_Position", "Name") VALUES ('4', 'Передан в ПДО');
+4	INSERT INTO public."Status"("ID_Position", "Name") VALUES ('4', 'Субподряд');
+5	INSERT INTO public."Status"("ID_Position", "Name") VALUES ('4', 'Приходный ордер');
+6	INSERT INTO public."Status"("ID_Position", "Name") VALUES ('5', 'Передан в ОПП');
