@@ -1,0 +1,1 @@
+UPDATE public."AddStatus" SET "ID_Status"='5' WHERE "ID_Status"=3;
