@@ -1,7 +1,7 @@
-1	INSERT INTO public."Status"("ID_Position", "Name") VALUES ('2', 'Добавлен начальником групп КБ');
-2	INSERT INTO public."Status"("ID_Position", "Name") VALUES ('3', 'Передан в архив');
-3	INSERT INTO public."Status"("ID_Position", "Name") VALUES ('4', 'Субподряд');
-4	INSERT INTO public."Status"("ID_Position", "Name") VALUES ('4', 'Приходный ордер');
-5	INSERT INTO public."Status"("ID_Position", "Name") VALUES ('4', 'Передан в ПДО');
-6	INSERT INTO public."Status"("ID_Position", "Name") VALUES ('5', 'Передан в ОПП');
-7	INSERT INTO public."Status"("ID_Position", "Name") VALUES ('5', 'Завершенный');
+INSERT INTO public."Status"("ID_Position", "Name") VALUES ('2', 'Добавлен инженером конструктором');
+INSERT INTO public."Status"("ID_Position", "Name") VALUES ('3', 'Добавлен начальником групп КБ');
+INSERT INTO public."Status"("ID_Position", "Name") VALUES ('4', 'Передан в архив');
+INSERT INTO public."Status"("ID_Position", "Name") VALUES ('5', 'ПДО-Субподряд');
+INSERT INTO public."Status"("ID_Position", "Name") VALUES ('5', 'ПДО-Приходный ордер');
+INSERT INTO public."Status"("ID_Position", "Name") VALUES ('5', 'Передан в ПДО');
+INSERT INTO public."Status"("ID_Position", "Name") VALUES ('6', 'Передан в ОПП');

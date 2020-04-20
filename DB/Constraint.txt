@@ -1,0 +1,3 @@
+ALTER TABLE "AddRollingSteel" ADD CONSTRAINT "AddRollingSteel_fk0" FOREIGN KEY ("ID_Order") REFERENCES "Orders"("ID") ON DELETE CASCADE;
+ALTER TABLE "AddRollingSteel" ADD CONSTRAINT "AddRollingSteel_fk1" FOREIGN KEY ("ID_MarkSteel") REFERENCES "MarkSteel"("ID") ON DELETE CASCADE;
+ALTER TABLE "AddRollingSteel" ADD CONSTRAINT "AddRollingSteel_fk2" FOREIGN KEY ("ID_ProfileSteel") REFERENCES "ProfileSteel"("ID") ON DELETE CASCADE;
