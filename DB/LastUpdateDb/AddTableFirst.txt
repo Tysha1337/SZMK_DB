@@ -1,0 +1,11 @@
+CREATE TABLE public."Detail"
+(
+    "ID" serial,
+    "Profile" character varying,
+    "SubtotalWeight" character varying,
+    "MarkSteel" character varying,
+    PRIMARY KEY ("ID")
+);
+
+ALTER TABLE public."Detail"
+    OWNER to postgres;

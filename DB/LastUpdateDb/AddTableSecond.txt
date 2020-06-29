@@ -1,0 +1,11 @@
+CREATE TABLE public."AddDetail"
+(
+    "DateCreate" timestamp with time zone,
+    "OrderID" bigint,
+    "DetailID" bigint,
+);
+
+ALTER TABLE public."AddDetail"
+    OWNER to postgres;
+ALTER TABLE "AddDetail" ADD CONSTRAINT "AddDetail_fk1" FOREIGN KEY ("OrderID") REFERENCES "Orders"("ID") ON DELETE CASCADE;
+ALTER TABLE "AddDetail" ADD CONSTRAINT "AddDetail_fk2" FOREIGN KEY ("DetailID") REFERENCES "Detail"("ID") ON DELETE CASCADE;
